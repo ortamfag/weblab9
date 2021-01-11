@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+<body>
+
+    <h1>Жидов Артем Валерьевич - Лабораторная работа №9» </h1>
+    <a href = "index.html">На главную</a>
+
+    <script type="text/javascript">
+
+        let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        const Num = 4
+
+        console.log('Искходный массив:')
+    matrix.forEach(el => {
+        console.log('' + el)
+    })
+    
+
+     function matrixMultiplication(Num, matrix) {
+         
+        console.log('Обработанный массив:')
+        matrix.forEach(el => {
+            for (let i = 0; i < el.length; i++) {
+                el[i] *= Num
+            }
+            console.log('' + el)
+        })
+    }
+
+    
+    matrixMultiplication(Num, matrix)
+    
+    </script>
+</body>
+</html>

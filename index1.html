@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+<body>
+
+    <h1>Жидов Артем Валерьевич - Лабораторная работа №9» </h1>
+
+    <a href = "index.html">На главную</a>
+
+    <script type="text/javascript">
+    
+    console.log("Задание 1, Лабораторная работа 9");
+
+    let university = {
+        street: "улица Большая Семеновская" ,
+        name: "Московский политех" ,
+        metro: "метро Электрозаводская" ,
+    }
+
+    let Property = 'Свойства: ';
+    for (key in university) {
+    
+        Property += key + ", ";
+    }
+    
+    console.log(Property);
+    console.log(`${university.name} находится по адресу ${university.metro}, ${university.street}`)
+
+    
+    </script>
+</body>
+</html>
